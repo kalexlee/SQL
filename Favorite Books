@@ -1,0 +1,12 @@
+/** Favorite Books:
+A Happy Pocket Full of Money
+Speak to us of Love
+The Power of the Subconcious Mind
+**/
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER );
+
+INSERT INTO books VALUES (1, "A Happy Pocket Full of Money", 1);
+INSERT INTO books VALUES (2, "Speak to us of Love", 2);
+INSERT INTO books VALUES (3, "The Power of the Subconcious Mind", 3);
+SELECT * FROM books
